@@ -1,6 +1,10 @@
 module.exports = {
   outputDir: 'docs',
-  pluginOptions: {
+  baseUrl: process.env.NODE_ENV === 'production'
+  ? '/ItemsJs-Vue-Demo/'
+  : '/'
+  
+  ,pluginOptions: {
     quasar: {
       theme: 'mat',
       rtlSupport: true,
