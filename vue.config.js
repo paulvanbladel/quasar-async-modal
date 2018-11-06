@@ -1,9 +1,9 @@
 module.exports = {
   outputDir: 'docs',
   baseUrl: process.env.NODE_ENV === 'production'
-  ? '/ItemsJs-Vue-Demo/'
+  ? '/quasar-async-modal/'
   : '/'
-  
+
   ,pluginOptions: {
     quasar: {
       theme: 'mat',
